@@ -1,0 +1,23 @@
+{
+  "name": "abc_corporation",
+  "version": "1.0.0",
+  "description": "no sql database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aichetou-Gaye/ABC_noSQL.git"
+  },
+  "author": "Aichetou Gaye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aichetou-Gaye/ABC_noSQL/issues"
+  },
+  "homepage": "https://github.com/Aichetou-Gaye/ABC_noSQL#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
