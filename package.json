@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Aichetou-Gaye/ABC_noSQL#readme",
   "dependencies": {
+    "mongodb": "^6.8.0",
     "nodemon": "^3.1.4"
   }
 }
