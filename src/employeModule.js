@@ -43,7 +43,7 @@ async function updateEmploye(employeId, name, role) {
     }
 }
 
-async function delEmploye(employeId) {
+async function deleteEmploye(employeId) {
     const connection = await db.connect()
     try {
         const result = await collection.deleteOne({employeId : employeId})
@@ -59,5 +59,5 @@ module.exports = {
     addEmploye,
     listEmployes,
     updateEmploye,
-    delEmploye,
+    deleteEmploye,
 }

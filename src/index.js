@@ -15,8 +15,8 @@ async function main() {
     const upEmploye = await employeModule.updateEmploye(3, 'Fatima Sall', 'Mangement projet')
     console.log(upEmploye)
 
-    const delEmploye = await employeModule.delEmploye(4)
-    console.log(`${delEmploye} is deleted`)
+    const deleteEmploye = await employeModule.deleteEmploye(4)
+    console.log(`${deleteEmploye} is deleted`)
     const listEmployes = await employeModule.listEmployes()
     console.log(listEmployes)*/
 
@@ -30,8 +30,8 @@ async function main() {
     const upSurvey = await surveyModule.updateSurvey(3, 'Enquête 003', 'Enquête de satisfaction', '2024-07-25', 1)
     console.log(upSurvey)
 
-    const delSurvey = await surveyModule.delSurvey(4)
-    console.log(`${delSurvey} is deleted`)
+    const deleteSurvey = await surveyModule.deleteSurvey(4)
+    console.log(`${deleteSurvey} is deleted`)
     const listSurvey = await surveyModule.listSurveys()
     console.log(listSurvey)*/
 
@@ -45,8 +45,8 @@ async function main() {
     const upQuestion = await questionModule.updateQuestion(9, "Quelle est le principal secteur actif", 'singlechoice', 3)
     console.log(upQuestion)
 
-    const delQuestion = await questionModule.delQuestion(9)
-    console.log(`${delQuestion} is deleted`)
+    const deleteQuestion = await questionModule.deleteQuestion(9)
+    console.log(`${deleteQuestion} is deleted`)
     const listQuestion = await questionModule.listQuestions()
     console.log(listQuestion)*/
 
@@ -69,8 +69,8 @@ async function main() {
         'Tarification'], 4)
     console.log(upAnswer)
 
-    const delAnswer = await answerModule.delAnswer(4)
-    console.log(`${delAnswer} is deleted`)
+    const deleteAnswer = await answerModule.deleteAnswer(4)
+    console.log(`${deleteAnswer} is deleted`)
     const listAnswer = await answerModule.listAnswers()
     console.log(listAnswer)*/
     

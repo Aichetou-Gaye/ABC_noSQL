@@ -43,7 +43,7 @@ async function updateQuestion(questionId, title, type, survey_id) {
     }
 }
 
-async function delQuestion(questionId) {
+async function deleteQuestion(questionId) {
     const connection = await db.connect()
     try {
         const result = await collection.deleteOne({questionId : questionId})
@@ -59,5 +59,5 @@ module.exports = {
     addQuestion,
     listQuestions,
     updateQuestion,
-    delQuestion,
+    deleteQuestion,
 }

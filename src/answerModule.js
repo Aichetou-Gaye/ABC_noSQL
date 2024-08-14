@@ -43,7 +43,7 @@ async function updateAnswer(answerId, title, question_id) {
     }
 }
 
-async function delAnswer(answerId) {
+async function deleteAnswer(answerId) {
     const connection = await db.connect()
     try {
         const result = await collection.deleteOne({answerId : answerId})
@@ -59,5 +59,5 @@ module.exports = {
     addAnswer,
     listAnswers,
     updateAnswer,
-    delAnswer,
+    deleteAnswer,
 }
