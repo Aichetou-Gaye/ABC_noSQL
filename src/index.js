@@ -37,7 +37,7 @@ async function main() {
 
     //Questions
 
-    const addQuestion = await questionModule.addQuestion(7, "Seriez-vous pret a apporter votre aide ?", "boolean", 2)
+    /*const addQuestion = await questionModule.addQuestion(7, "Seriez-vous pret a apporter votre aide ?", "boolean", 2)
     const addQuestion2 = await questionModule.addQuestion(8, "Que voulez vous comme amélioration ?", "multiplechoice", 4)
     const addQuestion4 = await questionModule.addQuestion(9, "Qu'est ce manque le plus selon vous?", "singlechoice", 5)
     console.log("Added successfully")
@@ -48,11 +48,11 @@ async function main() {
     const delQuestion = await questionModule.delQuestion(9)
     console.log(`${delQuestion} is deleted`)
     const listQuestion = await questionModule.listQuestions()
-    console.log(listQuestion)
+    console.log(listQuestion)*/
 
     //Answers
 
-    const addAnswer = await answerModule.addAnswer(6, ['Oui', 'Non'], 7)
+    /*const addAnswer = await answerModule.addAnswer(6, ['Oui', 'Non'], 7)
     const addAnswer2 = await answerModule.addAnswer(7, ["Plus d'options de produits",
       'Meilleure tarification',
       'Service plus rapide',
@@ -72,7 +72,7 @@ async function main() {
     const delAnswer = await answerModule.delAnswer(4)
     console.log(`${delAnswer} is deleted`)
     const listAnswer = await answerModule.listAnswers()
-    console.log(listAnswer)
+    console.log(listAnswer)*/
     
 }
 
