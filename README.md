@@ -72,5 +72,5 @@ npm start
 ```
 ## Auteur
 
-Aichetou GAYE, https://github.com/Aichetou-Gaye/Survey-App.git
+[Aichetou GAYE](https://github.com/Aichetou-Gaye/Survey-App.git)
 
