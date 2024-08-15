@@ -32,39 +32,36 @@ Suivez ces étapes pour configurer le projet sur votre machine locale :
     ```bash
     npm install
     ```
-    ```bash
-    npm install mongodb
-    ```
 
 ## Documentation des fonctions 
 
 ### Employes
 
 - **listEmployes()** : Permets de lister touts les employes;
-- **addEmploye()** : Permets d'ajouter un nouveau employe et prends en paramètre l'id, le nom et le role;
-- **updateEmploye()** : Permets de modifier les données d'un employé et prends en paramètre l'id, le nom et le role;
-- **deleteEmploye()** : Permets de supprimer un employé et prends en paramètre l'id;
+- **addEmploye(employeId, nom, role)** : Permets d'ajouter un nouveau employe et prends en paramètre l'id, le nom et le role;
+- **updateEmploye(employeId, nom, role)** : Permets de modifier les données d'un employé et prends en paramètre l'id, le nom et le role;
+- **deleteEmploye(employeId)** : Permets de supprimer un employé et prends en paramètre l'id;
 
 ### Surveys
 
 - **listSurveys()** : Permets de lister toutes les enquêtes;
-- **addSurvey()** : Permets d'ajouter une nouvelle enquête et prends en paramètre l'id, le nom et la description, la date de création de l'enquête, l'employe assigné;
-- **updateSurvey()** : Permets de modifier les données d'une enquête et prends en paramètre l'id, le nom et la description, la date de création de l'enquête, l'employe assigné;
-- **deleteSurvey()** : Permets de supprimer une enquête et prends en paramètre l'id;
+- **addSurvey(surveyId, name, description, createdAt, employe_id)** : Permets d'ajouter une nouvelle enquête et prends en paramètre l'id, le nom et la description, la date de création de l'enquête, l'employe assigné;
+- **updateSurvey(surveyId, name, description, createdAt, employe_id)** : Permets de modifier les données d'une enquête et prends en paramètre l'id, le nom et la description, la date de création de l'enquête, l'employe assigné;
+- **deleteSurvey(surveyId)** : Permets de supprimer une enquête et prends en paramètre l'id;
 
 ### Questions
 
 - **listQuestions()** : Permets de lister toutes les questions;
-- **addQuestion()** : Permets d'ajouter une nouvelle question et prends en paramètre l'id, le titre, le type et l'id de l'enquête;
-- **updateQuestion()** : Permets de modifier les données d'un employé et prends en paramètre l'id, le titre, le type et l'id de l'enquête;
-- **deleteQuestion()** : Permets de supprimer une question et prends en paramètre l'id;
+- **addQuestion(questionId, title, type, survey_id)** : Permets d'ajouter une nouvelle question et prends en paramètre l'id, le titre, le type et l'id de l'enquête;
+- **updateQuestion(questionId, title, type, survey_id)** : Permets de modifier les données d'un employé et prends en paramètre l'id, le titre, le type et l'id de l'enquête;
+- **deleteQuestion(questionId)** : Permets de supprimer une question et prends en paramètre l'id;
 
 ### Answers
 
 - **listAnswers()** : Permets de lister toutes les reponses;
-- **addAnswer()** : Permets d'ajouter une nouvelle reponse et prends en paramètre l'id, le titre et l'id de la question;
-- **updateAnswer()** : Permets de modifier les données d'une réponse et prends en paramètre l'id, le titre et l'id de la question;
-- **deleteAnswer()** : Permets de supprimer une Answer et prends en paramètre l'id;
+- **addAnswer(answerId, title, question_id)** : Permets d'ajouter une nouvelle reponse et prends en paramètre l'id, le titre et l'id de la question;
+- **updateAnswer(answerId, title, question_id)** : Permets de modifier les données d'une réponse et prends en paramètre l'id, le titre et l'id de la question;
+- **deleteAnswer(answerId)** : Permets de supprimer une Answer et prends en paramètre l'id;
 
 ## Utilisation
 
