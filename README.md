@@ -38,30 +38,53 @@ Suivez ces étapes pour configurer le projet sur votre machine locale :
 ### Employes
 
 - **listEmployes()** : Permets de lister touts les employes;
-- **addEmploye(employeId:int, name:string, role:string)** : Permets d'ajouter un nouveau employe et prends en paramètre l'id, le nom et le role;
-- **updateEmploye(employeId:int, name:string, role:string)** : Permets de modifier les données d'un employé et prends en paramètre l'id, le nom et le role;
-- **deleteEmploye(employeId:int)** : Permets de supprimer un employé et prends en paramètre l'id;
+
+- **addEmploye(employeId : int, name : string, role : string)** : 
+Permets d'ajouter un nouveau employe et prends en paramètre l'id, le nom et le role;
+
+- **updateEmploye(employeId : int, name : string, role : string)** : 
+Permets de modifier les données d'un employé et prends en paramètre l'id, le nom et le role;
+
+- **deleteEmploye(employeId : int)** : 
+Permets de supprimer un employé et prends en paramètre l'id;
 
 ### Surveys
 
 - **listSurveys()** : Permets de lister toutes les enquêtes;
-- **addSurvey(surveyId:int, name:string, description:text, createdAt:date, employe_id:int)** : Permets d'ajouter une nouvelle enquête et prends en paramètre l'id, le nom et la description, la date de création de l'enquête, l'employe assigné;
-- **updateSurvey(surveyId:int, name:string, description:text, createdAt:date, employe_id:int)** : Permets de modifier les données d'une enquête et prends en paramètre l'id, le nom et la description, la date de création de l'enquête, l'employe assigné;
-- **deleteSurvey(surveyId:int)** : Permets de supprimer une enquête et prends en paramètre l'id;
+
+- **addSurvey(surveyId : int, name : string, description : text, createdAt : date, employe_id : int)** : 
+Permets d'ajouter une nouvelle enquête et prends en paramètre l'id, le nom et la description, la date de création de l'enquête, l'employe assigné;
+
+- **updateSurvey(surveyId : int, name : string, description : text, createdAt : date, employe_id : int)** : 
+Permets de modifier les données d'une enquête et prends en paramètre l'id, le nom et la description, la date de création de l'enquête, l'employe assigné;
+
+- **deleteSurvey(surveyId : int)** : 
+Permets de supprimer une enquête et prends en paramètre l'id;
 
 ### Questions
 
 - **listQuestions()** : Permets de lister toutes les questions;
-- **addQuestion(questionId:int, title:string, type:string, survey_id:int)** : Permets d'ajouter une nouvelle question et prends en paramètre l'id, le titre, le type et l'id de l'enquête;
-- **updateQuestion(questionId:int, title:string, type:string, survey_id:int)** : Permets de modifier les données d'un employé et prends en paramètre l'id, le titre, le type et l'id de l'enquête;
-- **deleteQuestion(questionId:int)** : Permets de supprimer une question et prends en paramètre l'id;
+
+- **addQuestion(questionId : int, title : string, type : string, survey_id : int)** : 
+Permets d'ajouter une nouvelle question et prends en paramètre l'id, le titre, le type et l'id de l'enquête;
+
+- **updateQuestion(questionId : int, title : string, type : string, survey_id : int)** : 
+Permets de modifier les données d'un employé et prends en paramètre l'id, le titre, le type et l'id de l'enquête;
+
+- **deleteQuestion(questionId:int)** : 
+Permets de supprimer une question et prends en paramètre l'id;
 
 ### Answers
 
 - **listAnswers()** : Permets de lister toutes les reponses;
-- **addAnswer(answerId:int, title:array, question_id:int)** : Permets d'ajouter une nouvelle reponse et prends en paramètre l'id, le titre et l'id de la question;
-- **updateAnswer(answerId:int, title:array, question_id:int)** : Permets de modifier les données d'une réponse et prends en paramètre l'id, le titre et l'id de la question;
-- **deleteAnswer(answerId:int)** : Permets de supprimer une Answer et prends en paramètre l'id;
+- **addAnswer(answerId : int, title : array, question_id : int)** : 
+Permets d'ajouter une nouvelle reponse et prends en paramètre l'id, le titre et l'id de la question;
+
+- **updateAnswer(answerId : int, title : array, question_id : int)** : 
+Permets de modifier les données d'une réponse et prends en paramètre l'id, le titre et l'id de la question;
+
+- **deleteAnswer(answerId : int)** : 
+Permets de supprimer une Answer et prends en paramètre l'id;
 
 ## Utilisation
 
