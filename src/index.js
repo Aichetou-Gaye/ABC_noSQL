@@ -33,8 +33,8 @@ async function main() {
     await employeModule.deleteEmploye(1);
     console.log(`Deleted Successfully`);
 
-    const listEmployes = await employeModule.listEmployes();
-    console.log(listEmployes);
+    console.log("List of all employes :")
+    await employeModule.listEmployes();
 
     //Surveys
 
@@ -73,8 +73,8 @@ async function main() {
     await surveyModule.deleteSurvey(14);
     console.log(`Deleted Successfully`);
 
-    const listSurveys = await surveyModule.listSurveys();
-    console.log(listSurveys);
+    console.log("List of all surveys :")
+    await surveyModule.listSurveys();
 
     //Questions
 
@@ -109,8 +109,8 @@ async function main() {
     await questionModule.deleteQuestion(9);
     console.log(`Deleted Successfully`);
 
-    const listQuestions = await questionModule.listQuestions();
-    console.log(listQuestions);
+    console.log("List of all questions :")
+    await questionModule.listQuestions();
 
     //Answers
 
@@ -152,8 +152,8 @@ async function main() {
     await answerModule.deleteAnswer(4);
     console.log(`Deleted Successfully`);
 
-    const listAnswers = await answerModule.listAnswers();
-    console.log(listAnswers);
+    console.log("List of all answers :")
+    await answerModule.listAnswers();
 
   } catch (error) {
     console.log(error.message);

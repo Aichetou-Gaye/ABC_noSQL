@@ -25,6 +25,7 @@ async function listSurveys() {
     const connection = await db.connect()
     try {
         const result = await collection.find({}).toArray()
+        console.log(result)
         return result 
     }catch(error) {
         throw error
